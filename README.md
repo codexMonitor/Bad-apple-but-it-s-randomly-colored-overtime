@@ -16,11 +16,17 @@ Tutorials:
 7. Enjoy!
 
 
+When it's done:
+![image](https://github.com/user-attachments/assets/923f46e4-1a39-4b8e-ab12-60ec0bc7e498)
+
+
+
 Details of each file/folder (Just extra information):
 - play.py: This code runs the colored video.
 - extract.py: I used this code to extract frames of Bad Apple into extract_frames folder.
 - change_color.py: I used this code to change the colors of each frame and get them into colored_frames folder.
 - export_video.py: Well, it's just a script I used to export video. The video named bad_apple_colored has no sound.
 => Finally, you can make videos on your own. Just delete the colored_frames and run change_color.py. In case you delete extract_frames, just run extract.py, remember to keep the original video in here.
+
 
 If there is something new, I will update this repo.
