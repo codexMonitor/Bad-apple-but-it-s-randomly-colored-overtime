@@ -2,17 +2,17 @@
 
 Hi, there are Python scripts that I used to create colored Bad Apple video. 
 I'd like to show you how to make things work (If you have experience, you can ignore this text).
+To be clear, I don't know if this code works on Linux or MacOS so I will assume that you use Windows but I think it still works in any environment.
 
+Remember to download Python (There are some tutorials about that).
 
-Tutorials (To be clear, I don't know if this code works on Linux or MacOS so I will assume that you use Windows but I think it still works in any environment):
-1. Remember to download Python, there are a lot of tutorials and articles about that.
-2. Install dependencies, you just need to write this command in Terminal:
-      pip install -r requirements.txt
-3. Run this command (this extract audio from video): ffmpeg -i bad_apple.mp4 -q:a 0 -map a audio.wav
-4. Run this command (this will extract frames into extract_frames): python extract.py
-5. Run this command (this will color frames into colored_frames): python change_color.py
-6. Run this command (this plays video): python play.py
-7. Enjoy!
+Run these commands in Terminal:
+1. pip install -r requirements.txt (install dependencies)
+2. ffmpeg -i bad_apple.mp4 -q:a 0 -map a audio.wav (this extract audio from video)
+3 python extract.py (this will extract frames into extract_frames)
+4. python change_color.py (this will color frames into colored_frames)
+5. python play.py (this plays video)
+6. Enjoy!
 
 
 When it's done:
