@@ -10,8 +10,8 @@ Remember to download Python (There are a lot of tutorials about that).
 Run these commands in Terminal (Run in the place where all of these files place in):
 1. pip install -r requirements.txt (install dependencies)
 2. ffmpeg -i bad_apple.mp4 -q:a 0 -map a audio.wav (this extract audio from video)
-3. python extract.py (this will extract frames into extract_frames)
-4. python change_color.py (this will color frames into colored_frames)
+3. python extract.py (this will extract frames into extract_frames, this will take you time)
+4. python change_color.py (this will color frames into colored_frames, this will take you time)
 5. python play.py (this plays video)
 6. Enjoy!
 
