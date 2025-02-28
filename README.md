@@ -4,7 +4,7 @@ Hi, there are Python scripts that I used to create colored Bad Apple video.
 I'd like to show you how to make things work (If you have experience, you can ignore this text).
 
 
-Tutorials (To be clear, I don't know if this code works on Linux or MacOS so I will assume that you use Windows):
+Tutorials (To be clear, I don't know if this code works on Linux or MacOS so I will assume that you use Windows but I think it still works in any environment):
 1. Remember to download Python, there are a lot of tutorials and articles about that.
 2. Install dependencies, you just need to write this command in Terminal:
       pip install -r requirements.txt
