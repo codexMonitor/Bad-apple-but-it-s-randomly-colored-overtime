@@ -15,7 +15,7 @@ Run these commands in Terminal:
 6. Enjoy!
 
 
-When it's done:
+When it's done, it will look like this:
 ![image](https://github.com/user-attachments/assets/923f46e4-1a39-4b8e-ab12-60ec0bc7e498)
 
 
