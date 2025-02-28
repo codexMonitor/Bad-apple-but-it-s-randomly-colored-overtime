@@ -1,8 +1,9 @@
 # Bad apple but it's randomly colored overtime
 
-Hi, there are Python scripts that I used to create colored Bad Apple video. 
-I'd like to show you how to make things work (If you have experience, you can ignore this text).
-To be clear, I don't know if this code works on Linux or MacOS so I will assume that you use Windows but I think it still works in any environment.
+- Hi, there are Python scripts that I used to create colored Bad Apple video. 
+- I'd like to show you how to make things work (If you have experience, you can ignore this text).
+- To be clear, I don't know if this code works on Linux or MacOS so I will assume that you use Windows but I think it still works in any environment.
+- And you should run in VS Code because your operating system won't run these scripts. You have to technically trust them first in VS Code environment where it gives you choices to trust the folder or not (Don't worry there is no virus in there).
 
 Remember to download Python (There are a lot of tutorials about that).
 
