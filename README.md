@@ -12,7 +12,7 @@ Tutorials:
 3. Run this command: ffmpeg -i video.mp4 -q:a 0 -map a audio.wav
 4. Run this command: python extract.py
 5. Run this command: python change_color.py
-6. Run this command: python play.py
+6. Run this command (this plays video): python play.py
 7. Enjoy!
 
 
