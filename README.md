@@ -15,6 +15,7 @@ Run these commands in Terminal (Run in the place where all of these files place 
 5. python play.py (this plays video)
 6. Enjoy!
 
+Press Q to exit!
 
 When it's done, it will look like this:
 ![image](https://github.com/user-attachments/assets/923f46e4-1a39-4b8e-ab12-60ec0bc7e498)
