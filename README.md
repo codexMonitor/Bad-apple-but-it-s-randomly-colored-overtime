@@ -1,5 +1,4 @@
 # Bad-apple-but-it-s-randomly-colored-overtime
-I made this for fun : )
 
 Hi, there are Python scripts that I used to create colored Bad Apple video. 
 I'd like to show you how to make things work (If you have experience, you can ignore this text).
