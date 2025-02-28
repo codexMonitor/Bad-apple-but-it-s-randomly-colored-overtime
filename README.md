@@ -9,9 +9,9 @@ Tutorials:
 1. Remember to download Python, there are a lot of tutorials and articles about that.
 2. Install dependencies, you just need to write this command in Terminal (To be clear, I don't know if this code works on Linux or MacOS so I will assume that you use Windows):
       pip install -r requirements.txt
-3. Run this command: ffmpeg -i video.mp4 -q:a 0 -map a audio.wav
-4. Run this command: python extract.py
-5. Run this command: python change_color.py
+3. Run this command (this extract audio from video): ffmpeg -i bad_apple.mp4 -q:a 0 -map a audio.wav
+4. Run this command (this will extract frames into extract_frames): python extract.py
+5. Run this command (this will color frames into colored_frames): python change_color.py
 6. Run this command (this plays video): python play.py
 7. Enjoy!
 
@@ -29,4 +29,4 @@ Details of each file/folder (Just extra information):
 => Finally, you can make videos on your own. Just delete the colored_frames and run change_color.py. In case you delete extract_frames, just run extract.py, remember to keep the original video in here.
 
 
-If there is something new, I will update this repo.
+If there is something new, I will update this repo. 
