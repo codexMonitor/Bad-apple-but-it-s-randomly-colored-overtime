@@ -1,37 +1,71 @@
-# Bad apple but it's randomly colored overtime
+# **Bad Apple, But It’s Randomly Colored Over Time**  
 
-- Hi, there are Python scripts that I used to create colored Bad Apple video. 
-- I'd like to show you how to make things work (If you have experience, you can ignore this text).
-- To be clear, I don't know if this code works on Linux or MacOS so I will assume that you use Windows but I think it still works in any environment.
-- And you should run in VS Code because your operating system won't run these scripts. You have to technically trust them first in VS Code environment where it gives you choices to trust the folder or not (Don't worry there is no virus in there).
+## 📌 Introduction  
+Hi! This repository contains Python scripts I used to create a **randomly colored** version of the *Bad Apple* video.  
 
-Remember to download Python (There are a lot of tutorials about that).
+If you already have experience with Python and FFmpeg, feel free to skip the setup instructions.  
 
-Run these commands in Terminal (Run in the place where all of these files place in):
-- Install dependencies:
-```pip install -r requirements.txt```
-- This extracts audio from video:
-```ffmpeg -i bad_apple.mp4 -q:a 0 -map a audio.wav```
-- This will extract frames into extract_frames and will take you time:
-```python extract.py```
-- This will color frames into colored_frames and will take you time:
-```python change_color.py```
-- This plays video:
-```python play.py``` 
-- Enjoy!
+> **Note:** I haven’t tested this on Linux or macOS, so I’ll assume you’re using Windows. However, it should work in any environment with minor adjustments.  
 
-Press Q to exit!
+For best results, run these scripts in **VS Code**, as your OS might not execute them directly. VS Code will prompt you to trust the folder—don’t worry, **there’s no virus** here.  
 
-When it's done, it will look like this:
-![image](https://github.com/user-attachments/assets/923f46e4-1a39-4b8e-ab12-60ec0bc7e498)
+---
 
+## ⚙️ **Setup Instructions**  
 
-Details of each file/folder (Just extra information):
-- play.py: This code runs the colored video.
-- extract.py: I used this code to extract frames of Bad Apple into extract_frames folder.
-- change_color.py: I used this code to change the colors of each frame and get them into colored_frames folder.
-- export_video.py: Well, it's just a script I used to export video. The video named bad_apple_colored has no sound.
-=> Finally, you can make videos on your own. Just delete the colored_frames and run change_color.py. In case you delete extract_frames, just run extract.py, remember to keep the original video in here.
+### **1⃣ Install Python**  
+Make sure you have Python installed. If not, there are plenty of tutorials online to guide you through it.  
 
+### **2⃣ Install Dependencies**  
+Open a terminal in the repository folder and run:  
+```bash
+pip install -r requirements.txt
+```
 
-If there is something new, I will update this repo. 
+### **3⃣ Extract Audio from Video**  
+```bash
+ffmpeg -i bad_apple.mp4 -q:a 0 -map a audio.wav
+```
+
+### **4⃣ Extract Frames (Takes Time)**  
+```bash
+python extract.py
+```
+- This will create an `extract_frames` folder containing individual frames from the video.  
+
+### **5⃣ Colorize Frames (Takes Time)**  
+```bash
+python change_color.py
+```
+- This will generate a `colored_frames` folder with randomly colored frames.  
+
+### **6⃣ Play the Video**  
+```bash
+python play.py
+```
+- **Press `Q` to exit!**  
+
+---
+
+## 🐂 **File & Folder Details**  
+| File/Folder       | Description |
+|-------------------|-------------|
+| `play.py`        | Runs the final colored video. |
+| `extract.py`     | Extracts frames from *Bad Apple* into `extract_frames`. |
+| `change_color.py` | Changes the colors of each frame and saves them in `colored_frames`. |
+| `export_video.py` | Exports a video (without sound) from the colored frames. |
+
+---
+
+## 🎥 **How to Make Your Own Colored Videos**  
+1. **Want to recolor the frames?**  
+   - Delete the `colored_frames` folder and rerun `change_color.py`.  
+2. **Accidentally deleted `extract_frames`?**  
+   - Just rerun `extract.py`—but make sure to keep the original video (`bad_apple.mp4`) in the folder.  
+
+---
+
+## 🔄 **Updates**  
+I’ll update this repository if I make any improvements or add new features!  
+
+---
