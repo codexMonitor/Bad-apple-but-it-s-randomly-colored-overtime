@@ -18,7 +18,7 @@ Run these commands in Terminal (Run in the place where all of these files place 
 ```python change_color.py```
 - This plays video:
 ```python play.py``` 
-Enjoy!
+- Enjoy!
 
 Press Q to exit!
 
