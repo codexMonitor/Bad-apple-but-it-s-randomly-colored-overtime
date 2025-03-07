@@ -65,7 +65,7 @@ python play.py
 
 ---
 
-## 🔄 **Updates**  
-I’ll update this repository if I make any improvements or add new features!  
+## **Notes**  
+I’ll update this repository if I make any improvements or add new features!   
 
 ---
