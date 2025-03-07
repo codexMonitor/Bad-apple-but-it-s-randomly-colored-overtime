@@ -9,7 +9,9 @@ Remember to download Python (There are a lot of tutorials about that).
 
 Run these commands in Terminal (Run in the place where all of these files place in):
 (install dependencies)
-```pip install -r requirements.txt```
+<div style="width: 100%; overflow: auto;">
+  ```pip install -r requirements.txt```
+<div>
 (this extract audio from video)
 ffmpeg -i bad_apple.mp4 -q:a 0 -map a audio.wav 
 (this will extract frames into extract_frames, this will take you time)
