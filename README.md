@@ -69,3 +69,8 @@ python play.py
 I’ll update this repository if I make any improvements or add new features!   
 
 ---
+
+## **GIF** 
+![till](./BadGit.gif)
+
+---
