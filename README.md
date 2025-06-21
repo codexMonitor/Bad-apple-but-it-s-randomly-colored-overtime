@@ -13,33 +13,33 @@ For best results, run these scripts in **VS Code**, as your OS might not execute
 
 ## ⚙️ **Setup Instructions**  
 
-### **1 Install Python**  
+### **1. Install Python**  
 Make sure you have Python installed. If not, there are plenty of tutorials online to guide you through it.  
 
-### **2 Install Dependencies**  
+### **2. Install Dependencies**  
 Open a terminal in the repository folder and run:  
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3 Extract Audio from Video**  
+### **3. Extract Audio from Video**  
 ```bash
 ffmpeg -i bad_apple.mp4 -q:a 0 -map a audio.wav
 ```
 
-### **4 Extract Frames (Takes Time)**  
+### **4. Extract Frames (Takes Time)**  
 ```bash
 python extract.py
 ```
 - This will create an `extract_frames` folder containing individual frames from the video.  
 
-### **5 Colorize Frames (Takes Time)**  
+### **5. Colorize Frames (Takes Time)**  
 ```bash
 python change_color.py
 ```
 - This will generate a `colored_frames` folder with randomly colored frames.  
 
-### **6 Enjoy!**  
+### **6. Enjoy!**  
 ```bash
 python play.py
 ```
